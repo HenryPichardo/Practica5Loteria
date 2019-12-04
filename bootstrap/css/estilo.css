@@ -1,0 +1,11 @@
+body {
+    background: wheat;
+}
+
+.titulo {
+    background-color: rgba(255, 0, 0, 0.616);
+}
+
+.titulo2 {
+    background-color: rgba(0, 0, 255, 0.705);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 5 Loteria</title>
+    <link rel="stylesheet" href="bootstrap/css/estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="loteria.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row titulo">
+            <div class="col-lg-12">
+                <h1>Practica 5 <br>Loteria<br>Numeros Jugados por el cliente<br><br>Introduzca su tres jugadas</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+
+                <label for="">PRIMER Numero</label><br>
+                <input required type="number" name="" id="jugada1" min="00" max="99"><br><br>
+
+                <label for="">SEGUNDO Numero</label><br>
+                <input required type="number" name="" id="jugada2" min="00" max="99"><br><br>
+
+                <label for="">TERCER Numero</label><br>
+                <input required type="number" name="" id="jugada3" min="00" max="100"><br><br>
+
+            </div>
+
+            <div class="col-lg-6">
+                <br><br><br><br><br><br>
+                <h1 class="titulo2"><span style="color:yellow">Numeros ganadores<br>Loteria Nacional</span></h1>
+
+                <label for="">PRIMER PREMIO</label><br>
+                <p id="primer">
+                    <p><br><br>
+
+                        <label for="">SEGUNDO PREMIO</label><br>
+                        <p id="segundo">
+                            <p><br><br>
+
+                                <label for="">TERCER PREMIO</label><br>
+                                <p id="tercero">
+                                    <p><br><br>
+
+                                        <input class="btn-primary btn-lg" onclick="loteria()" type="button" value="VUELTAS AL GLOBO"><br>
+                                        <br>
+                                        <h1 id="mensaje"></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
